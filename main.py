@@ -37,8 +37,9 @@ def generate_elementary_ca(rule, num_steps):
 # Example usage
 # Rule 18: give a fractal like pattern
 # Rule 30: interesting triangles too ...
+# Adjust your terminal size to fit the grid
 
-steps = 15
+steps = 200
 
 for i in range(256):
     print(f"Rule {i}: ")
